@@ -16,4 +16,5 @@ There are 3 files: `servo.py`, `example1.py` and `example2.py`. There are two wa
 - The second is to import the module into your programme. The way this is done is by first copying `servo.py` to the `/mu_code/` directory of your PC. Then open the `Mu` application and press the `files` button. Connect your micro:bit to your PC. After a few seconds you will see `servo.py` under the `Files in your computer:` section. Drag `servo.py` into the `Files on your micro:bit:` section. Now you will be able to call the class. Flash `example2.py` and it should work.
 #### Important notes:
 The servo library only works if you import the micro:bit library at the top of your code. `from microbit import *`\
-The syntax for importing the servo module is `from servo import Servo`, this imports class `Servo` from file `servo.py`
+The syntax for importing the servo module is `from servo import Servo`, this imports class `Servo` from file `servo.py`.\
+If you get a memory error when you flash your project, remove the comments in `servo.py` as this will free up memory.
