@@ -13,7 +13,7 @@ micro:bit can only produce a 3.3V signal. This means a two transistor amplifier 
 will work with a 3.3V analogue signal** which means you can get away with connecting it straight to the micro:bit.\
 Included, there are 3 files: `servo.py`, `example1.py` and `example2.py`. There are two ways to use this class:
 - The first is to copy the code of `servo.py` to the top of your programme, see `example1.py`. Flash the programme.
-- The second is to import the module into your programme. The way this is done is by first copying `servo.py` to the `/mu_code/` directory of your PC. Then open the `Mu` application and press the `files` button. Connect your micro:bit to your PC. After a few seconds you will see `servo.py` under the `Files in your computer:` section. Drag `servo.py` into the `Files on your micro:bit:` section. Now you will be able to call the class. Flash `example2.py` and it should work.
+- The second is to import the module into your programme. You can do this by first copying `servo.py` to the `/mu_code/` directory of your PC. Then open the `Mu` application and press the `files` button. Connect your micro:bit to your PC. After a few seconds you will see `servo.py` under the `Files in your computer:` section. Drag `servo.py` into the `Files on your micro:bit:` section. Now you will be able to call the class. Flash `example2.py` and it should work.
 #### Important notes:
 The servo library only works if you import the micro:bit library at the top of your code. `from microbit import *`\
 The syntax for importing the servo module is `from servo import Servo`, this imports class `Servo` from file `servo.py`.\
