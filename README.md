@@ -15,7 +15,7 @@ Included, there are 3 files: `servo.py`, `example1.py` and `example2.py`. There 
 - The first is to copy the code of `servo.py` to the top of your programme, see `example1.py`. Flash the programme.
 - The second is to import the module into your programme. You can do this by first copying `servo.py` to the `/mu_code/` directory of your PC. Then open the `Mu` application and press the `files` button. Connect your micro:bit to your PC. After a few seconds you will see `servo.py` under the `Files in your computer:` section. Drag `servo.py` into the `Files on your micro:bit:` section. Now you will be able to call the class. Flash `example2.py` and it should work.
 #### Important notes:
-The servo library only works if you import the micro:bit library at the top of your code. `from microbit import *`\
-The syntax for importing the servo module is `from servo import Servo`, this imports class `Servo` from file `servo.py`.\
-If you get a memory error when you flash your project, remove the comments in `servo.py` as this will free up memory.
-If you experience jittering in your servo motor after it has rotated, try turning the pin which you are controlling the servo with off. For example: `pin1.write_digital(0)`
+-The servo library only works if you import the micro:bit library at the top of your code. `from microbit import *`\
+-The syntax for importing the servo module is `from servo import Servo`, this imports class `Servo` from file `servo.py`.\
+-If you get a memory error when you flash your project, remove the comments in `servo.py` as this will free up memory.
+-If you experience jittering in your servo motor after it has rotated, try turning the pin which you are controlling the servo with off. For example: `pin1.write_digital(0)`
